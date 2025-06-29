@@ -1,0 +1,23 @@
+# FastAPI and server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Configuration and environment
+python-dotenv==1.0.0
+pydantic==2.5.0
+pydantic-settings==2.0.3
+
+# Jira integration
+atlassian-python-api==3.41.0
+
+# HTTP requests
+requests==2.31.0
+aiohttp==3.9.1
+
+# File handling
+python-multipart==0.0.6
+aiofiles==23.2.1
+
+# Optional dependencies for enhanced features
+transformers==4.35.0
+reportlab==4.0.7
