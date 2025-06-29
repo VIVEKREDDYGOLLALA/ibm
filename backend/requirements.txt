@@ -1,23 +1,28 @@
 # FastAPI and server
-fastapi==0.104.1
-uvicorn[standard]==0.24.0
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
 
 # Configuration and environment
-python-dotenv==1.0.0
-pydantic==2.5.0
-pydantic-settings==2.0.3
+python-dotenv>=1.0.0
+pydantic>=2.6.0
+pydantic-settings>=2.1.0
 
 # Jira integration
-atlassian-python-api==3.41.0
+atlassian-python-api>=3.41.0
 
 # HTTP requests
-requests==2.31.0
-aiohttp==3.9.1
+requests>=2.31.0
+aiohttp>=3.9.0
 
 # File handling
-python-multipart==0.0.6
-aiofiles==23.2.1
+python-multipart>=0.0.6
+aiofiles>=23.2.0
 
-# Optional dependencies for enhanced features
-transformers==4.35.0
-reportlab==4.0.7
+# PDF generation
+reportlab>=4.0.0
+
+# Image processing for vision analysis
+Pillow>=10.0.0
+
+# PDF text extraction
+PyPDF2>=3.0.0
